@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para celulares (geralmente screens menores que 600px) */
+@media only screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        background-color: #00869F;
+        height: 15vh;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #nav-logo{
+        height: 30%;
+    }
+    #main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 85vh;
+    }
+
+    #consulta{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .info-user{
+        color: #00869F;
+    }
+
+    #title-consulta{
+        line-height: 5px;
+        text-align: center;
+    }
+
+    #title-consulta h1{
+        font-size: 2.5em;
+        color: #C2C2C2;
+    }
+    #title-consulta h2{
+        font-size: 3em;
+        color: #000000;
+    }
+
+    #mapa {
+        width: 80vw;
+        transition: all 0.3s ease-in-out; /* Adiciona transição */
+    }
+    
+    #mapa:hover {
+        height: 65vh;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
+    }
+
+    #consultar-atendimento{
+        text-decoration: none;
+        color: white;
+        background-color: #00869F;
+        padding: 1rem;
+        text-align: center;
+        font-weight: 700;
+        transition: background-color 0.3s ease;
+    }
+
+    #consultar-atendimento:hover {
+        background-color: #00676d;
+    }
+  }
+  
+  /* Estilos para tablets (geralmente screens entre 600px e 900px) */
+@media only screen and (min-width: 601px) and (max-width: 950px) {
+    nav{
+        display: flex;
+        background-color: #00869F;
+        height: 15vh;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #nav-logo{
+        height: 30%;
+    }
+    #main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 85vh;
+    }
+
+    #consulta{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 26px;
+    }
+
+    .info-user{
+        color: #00869F;
+    }
+
+    #title-consulta{
+        line-height: 5px;
+        text-align: center;
+    }
+
+    #title-consulta h1{
+        font-size: 2.5em;
+        color: #C2C2C2;
+    }
+    #title-consulta h2{
+        font-size: 3em;
+        color: #000000;
+    }
+
+    #mapa {
+        width: 80vw;
+        transition: all 0.3s ease-in-out; /* Adiciona transição */
+    }
+    
+    #mapa:hover {
+        height: 65vh;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
+    }
+
+    #consultar-atendimento{
+        text-decoration: none;
+        color: white;
+        background-color: #00869F;
+        padding: 1rem;
+        text-align: center;
+        font-weight: 700;
+        transition: background-color 0.3s ease;
+    }
+
+    #consultar-atendimento:hover {
+        background-color: #00676d;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1200px) {
+    nav{
+        display: flex;
+        background-color: #00869F;
+        height: 15vh;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #nav-logo{
+        height: 30%;
+    }
+    #main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 85vh;
+    }
+
+    #consulta{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 26px;
+    }
+
+    .info-user{
+        color: #00869F;
+    }
+
+    #title-consulta{
+        line-height: 5px;
+        text-align: center;
+    }
+
+    #title-consulta h1{
+        font-size: 2.5em;
+        color: #C2C2C2;
+    }
+    #title-consulta h2{
+        font-size: 3em;
+        color: #000000;
+    }
+
+    #mapa {
+        width: 80vw;
+        transition: all 0.3s ease-in-out; /* Adiciona transição */
+    }
+    
+    #mapa:hover {
+        height: 65vh;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
+    }
+
+    #consultar-atendimento{
+        text-decoration: none;
+        color: white;
+        background-color: #00869F;
+        padding: 1rem;
+        text-align: center;
+        font-weight: 700;
+        transition: background-color 0.3s ease;
+    }
+
+    #consultar-atendimento:hover {
+        background-color: #00676d;
+    }
+}
+
+  /* Estilos para monitores (geralmente screens maiores que 1200px) */
+@media only screen and (min-width: 1201px) {
+    nav{
+        display: flex;
+        background-color: #00869F;
+        height: 15vh;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #nav-logo{
+        height: 60%;
+    }
+    #main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 85vh;
+    }
+
+    #consulta{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    #consultar-atendimento{
+        text-decoration: none;
+        color: white;
+        background-color: #00869F;
+        padding: 1rem;
+        text-align: center;
+        font-weight: 700;
+        transition: background-color 0.3s ease;
+    }
+
+    #consultar-atendimento:hover {
+        background-color: #00676d;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 26px;
+    }
+
+    .info-user{
+        color: #00869F;
+    }
+
+    #title-consulta{
+        line-height: 5px;
+        text-align: center;
+    }
+
+    #title-consulta h1{
+        font-size: 2.5em;
+        color: #C2C2C2;
+    }
+    #title-consulta h2{
+        font-size: 3em;
+        color: #000000;
+    }
+
+    #mapa {
+        height: 60vh;
+        transition: all 0.3s ease-in-out; /* Adiciona transição */
+    }
+    
+    #mapa:hover {
+        height: 65vh;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
+    }
+  }
