@@ -61,12 +61,6 @@ body{
 
     #mapa {
         width: 80vw;
-        transition: all 0.3s ease-in-out; /* Adiciona transição */
-    }
-    
-    #mapa:hover {
-        height: 65vh;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
     }
 
     #consultar-atendimento{
@@ -138,12 +132,6 @@ body{
 
     #mapa {
         width: 80vw;
-        transition: all 0.3s ease-in-out; /* Adiciona transição */
-    }
-    
-    #mapa:hover {
-        height: 65vh;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
     }
 
     #consultar-atendimento{
@@ -214,12 +202,6 @@ body{
 
     #mapa {
         width: 80vw;
-        transition: all 0.3s ease-in-out; /* Adiciona transição */
-    }
-    
-    #mapa:hover {
-        height: 65vh;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
     }
 
     #consultar-atendimento{
@@ -305,11 +287,5 @@ body{
 
     #mapa {
         height: 60vh;
-        transition: all 0.3s ease-in-out; /* Adiciona transição */
-    }
-    
-    #mapa:hover {
-        height: 65vh;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona box-shadow */
     }
   }
